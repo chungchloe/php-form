@@ -148,7 +148,7 @@
 			$mail = new PHPMailer;
 			
 			$mail->setFrom($email, $firstname);
-			$mail->addAddress("chloeyochung@gmail.com");     // Add a recipient
+			$mail->addAddress("chungchloe@pm.me");     // Add a recipient
 			
 			if (isset($_POST['info']))
             {
@@ -220,13 +220,13 @@
             
             <!-- Adds CSS3 Media Queries to older browsers such as IE5+ -->
             <script src="js/css3-mediaqueries.js"></script>
+            <!--Icon-->
             
             <!--Stylesheet-->
             <link rel="stylesheet" href="css/reset.css">
             <link rel="stylesheet" href="css/style.css">
             
-            <!--Icon-->
-            <link rel="icon" href="http://chloeychung.com/images/logo-small.png">
+            <link rel="icon" href="https://chungchloe.com/images/logo-small.png">
             
         </head>
     
